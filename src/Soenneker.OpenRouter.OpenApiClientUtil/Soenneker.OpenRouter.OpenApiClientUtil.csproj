@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <Description>A thread-safe utility for obtaining OpenRouter's OpenApiClient singleton.</Description>
+        <Description>Provides a configured OpenRouter API client and reuses it for the lifetime of the registered service.</Description>
         <Version Condition="'$(BUILD_VERSION)' == ''">4.0.0</Version>
         <Version Condition="'$(BUILD_VERSION)' != ''">$(BUILD_VERSION)</Version>
         <AssemblyName>Soenneker.OpenRouter.OpenApiClientUtil</AssemblyName>
@@ -41,7 +41,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Kiota.GenericAuthenticationProvider" Version="4.0.41" />
         <PackageReference Include="Soenneker.OpenRouter.HttpClients" Version="4.0.88" />
         <PackageReference Include="Soenneker.OpenRouter.OpenApiClient" Version="4.0.66" />
     </ItemGroup>
