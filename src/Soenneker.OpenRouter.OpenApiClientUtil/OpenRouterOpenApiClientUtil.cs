@@ -11,6 +11,7 @@ using Soenneker.Utils.AsyncSingleton;
 
 namespace Soenneker.OpenRouter.OpenApiClientUtil;
 
+/// <inheritdoc cref="IOpenRouterOpenApiClientUtil" />
 public sealed class OpenRouterOpenApiClientUtil : IOpenRouterOpenApiClientUtil
 {
     private readonly AsyncSingleton<OpenRouterOpenApiClient> _client;
