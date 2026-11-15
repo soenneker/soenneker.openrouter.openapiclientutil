@@ -44,7 +44,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.OpenRouter.HttpClients" Version="11.0.169" />
+        <PackageReference Include="Soenneker.OpenRouter.HttpClients" Version="11.0.171" />
         <PackageReference Include="Soenneker.OpenRouter.OpenApiClient" Version="11.0.115" />
     </ItemGroup>
 </Project>
